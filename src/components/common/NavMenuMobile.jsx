@@ -67,8 +67,6 @@ import MegaMenuMobile from '../home/MegaMenuMobile';
 
                     <div onClick={this.ContentOverlayClickHandler}  className={this.state.ContentOverState} ></div>
 
-
-
        </div>
       </Fragment>
     )
@@ -76,7 +74,3 @@ import MegaMenuMobile from '../home/MegaMenuMobile';
 }
 
 export default NavMenuMobile
-{/* <hr className="w-80" />
-                    <div className="list-group" >
-                         <a className="list-group-item nav-font nav-itemmenu list-group-item-action" ><i className="fa mr-2 fa-home" ></i>Home </a>
-                    </div> */}
