@@ -12,6 +12,8 @@ import ProductsDetails from '../components/ProductDetails/ProductsDetails';
 import NotificationPage from '../pages/NotificationPage';
 import FavouritePage from '../pages/FavouritePage';
 import CartPage from '../pages/CartPage';
+import ProductCategoryPage from '../pages/ProductCategoryPage';
+import ProductSubCategoryPage from '../pages/ProductSubCategoryPage';
 
 
  class AppRoute extends Component {
@@ -22,7 +24,7 @@ import CartPage from '../pages/CartPage';
            <Route  exact  path="/" component={HomePage} />
            <Route  exact  path="/login" component={UserLoginPage} />
            <Route  exact  path="/contact" component={ContactPage} />
-           <Route  exact  path="/Purchase" component={PurchasePage} />
+           <Route  exact  path="/purchase" component={PurchasePage} />
            <Route  exact  path="/refund" component={RefundPage} />
            <Route  exact  path="/privacy" component={PrivacyPage} />
            <Route  exact  path="/About" component={AboutPage} />
@@ -30,7 +32,11 @@ import CartPage from '../pages/CartPage';
            <Route  exact  path="/Productdetails" component={ProductsDetails} />
            <Route  exact  path="/notification" component={NotificationPage} />
            <Route  exact  path="/favourite" component={FavouritePage} />
-           <Route  exact  path="/cart" component={CartPage} />
+           <Route  exact  path="/cart" component={CartPage} /> 
+           <Route exact path="/productcategory/:category" component={ProductCategoryPage} />
+           <Route exact path="/productsubcategory/:category/:subcategory" component={ProductSubCategoryPage} />
+
+
        </Switch>
      </Fragment>
     )

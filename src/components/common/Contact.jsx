@@ -12,7 +12,9 @@ import 'react-toastify/dist/ReactToastify.css';
         this.state={
              name:"",
              email:"",
-             message:""
+             message:"",
+             loaderDiv:"",
+      mainDiv:"d-none",
         }
    }
 

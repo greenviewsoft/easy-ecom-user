@@ -4,7 +4,7 @@ import NavMenuMobile from '../components/common/NavMenuMobile'
 import FooterDesktop from '../components/common/FooterDesktop'
 import FooterMobile from '../components/common/FooterMobile'
 import Purchase from '../components/other/Purchase'
-import UserLogin from '../components/common/UserLogin'
+
 
  class PurchasePage extends Component {
     componentDidMount(){
